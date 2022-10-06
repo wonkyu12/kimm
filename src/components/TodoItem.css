@@ -1,0 +1,41 @@
+/* TODO ITEM */
+.todo-item {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+}
+
+.todo-item .todo-content {
+    padding: 10px 10px 10px 0;
+}
+
+/* BUTTONS */
+.remove-btn {
+    background-color: orangered;
+}
+
+.remove-btn:hover {
+    background-color: #de3a00;
+}
+
+.done-btn {
+    background-color: yellowgreen;
+}
+
+.done-btn:hover {
+    background-color: #84b225;
+}
+
+.cancel-btn {
+    background-color: dimgray;
+}
+
+.cancel-btn:hover {
+    background-color: #585757;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* APP TITLE */
+.app-title {
+    margin-bottom: 20px;
+}
+
+/* TODO CONTAINER */
+.todo-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* BOX AREA */
+.box-area {
+    max-width: 300px;
+    width: 100%;
+}
+
+.box-area h2 {
+    margin-bottom: 10px;
+}
+
+/* INPUT CONTROLS */
+.input-controls {
+    margin-bottom: 10px;
+}
+
+.input-controls label {
+    color: gray;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.input-controls input {
+    padding: 3px 6px 2px 6px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+/* BUTTONS */
+button {
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.add-btn {
+    background-color: #2192FF;
+}
+
+.add-btn:hover {
+    background-color: #0082ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
